@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #0f0c29;
+    color: white;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    color: #D4AF37;
+    border-radius: 5px;
+    align-items: center;
+}
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+}
+img{
+    width: 50px;
+    height: 48px;
+
+}
+.nav-toggle{
+    width: 44px;
+    height: 47px;
+    border-radius: 10px;
+    background-color: rgb(253, 255, 153);
+    font-size: 1.8rem;
+    background-color: transparent;
+    border: #D4AF37 1px solid;
+    color: #D4AF37;
+}
+.nav-menu a{
+    color: white;
+}
+.nav-menu a:hover{
+    color: #D4AF37;
+    transform: scale(1.1);
+    display: inline-block;
+}
+.hero{
+    background: linear-gradient(#0f0c29,#302b63,#24243e);
+    height: 80vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.hero a{
+    color: #D4AF37;
+}
+.container{
+    border: #D4AF37 1px solid;
+    padding: 20px;
+    border-radius: 20px;
+}
+.icon-box{
+    border-radius: 50%;
+    font-size: 80px;
+    
+}
+.activities{
+    background-color: #f4f4f4;
+    padding: 30px;
+    align-items: center;
+    color: #274472;
+    text-align: center;
+
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.card{
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0.5px 15px rgba(0,0,0,0.1);
+    text-align: center;
+    margin: 20px;
+}
+.p{
+    color: #555;
+}
+.card:hover{
+    transform: translateY(-10px);
+}
+.footer{
+    background-color: #0F1C3F;
+    color: #ccc;
+    padding: 40px 0;
+    text-align: center;
+    border-top: 1px solid #D4AF37;
+}
